@@ -1,15 +1,12 @@
-/**Print "Programming is like building a multilingual puzzle"
- *
- *Call the Header
- *Define the main function
- *Use put() for the required expression
- *return 0;
- */
 #include <stdio.h>
 
+/**
+ *main -Printing
+ *
+ *Return Always 0(Successful)
+ */
 int main(void)
-
-{ 
+{
     puts("\"Programming is like building a multilingual puzzle\n");
-    return (0); 
+    return (0);     
 }
