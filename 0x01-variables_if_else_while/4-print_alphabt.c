@@ -5,10 +5,8 @@
  * Use the for loop
  * Within the for loop, use the if condition
  * Print the function
- * return (0);
+ * Return: Always 0 (Success);
  */
-
-
 int main(void)
 {
 	char low;
