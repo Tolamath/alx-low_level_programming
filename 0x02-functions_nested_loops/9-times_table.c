@@ -22,3 +22,11 @@ void times_table(void)
 		}
 	}
 }
+
+int main(void)
+{
+	int x;
+
+	x = times_tables();
+	return (x);
+}
