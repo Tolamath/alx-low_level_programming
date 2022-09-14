@@ -21,6 +21,7 @@ void times_table(void)
 				{
 					int x = (prod / 10);
 					int y = (prod % 10);
+
 					putchar(x + '0');
 					putchar(y + '0');
 				}
