@@ -8,6 +8,7 @@
 void print_to_98(int n)
 {
 	int i = n, rem, div;
+
 	putchar(i + '0');
 	for (i = n + 1; i <= 98; i++)
 	{
@@ -27,13 +28,8 @@ void print_to_98(int n)
 		}
 		else
 		{
-			putchar(' ');
 			putchar(i + '0');
 		}
 	}
 	putchar('\n');
-}
-int main(void)
-{
-	print_to_98(-10);
 }
