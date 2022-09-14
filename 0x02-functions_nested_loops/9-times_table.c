@@ -10,23 +10,33 @@ void times_table(void)
 	{
 		for (i = 0; i <= 9; i++)
 		{
-			_putchar(m + '0');
-			for (j = 0; j <= 9; j++)
+			putchar(m + '0');
+			for (j = 1; j <= 9; j++)
 			{
 				prod = (i * j);
-				_putchar(',');
-				_putchar(' ');
-				_putchar(prod + "0');
+				putchar(',');
+				putchar(' ');
+
+				if (prod > 9)
+				{
+					int x = (prod / 10);
+					int y = (prod % 10);
+					putchar(x + '0');
+					putchar(y + '0');
+				}
+				else
+				{
+					putchar(' ');
+					putchar(prod + '0');
+				}
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 }
 
 int main(void)
 {
-	int x;
-
-	x = times_tables();
-	return (x);
+	times_table();
+	return (0);
 }
