@@ -9,6 +9,17 @@ int print_last_digit(int i)
 	int last;
 
 	last = (i % 10);
-
-	return (last);
+	if (i > 0)
+	{
+		return (last);
+	}
+	else if (i < 0)
+	{
+		last = last * (-1);
+		return (last);
+	}
+	else
+	{
+		return (last);
+	}
 }
