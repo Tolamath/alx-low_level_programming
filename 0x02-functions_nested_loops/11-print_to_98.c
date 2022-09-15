@@ -31,10 +31,14 @@ void print_to_98(int n)
 			putchar(i + '0');
 		}
 	}
+	while (n > 98)
+	{
+		putchar(',');
+		putchar(' ');
+		int m;
+	       	m = n-1;
+		printf("%d", m);
+		n--;
+	}
 	putchar('\n');
-}
-int main(void)
-{
-	print_to_98(-10);
-	return (0);
 }
