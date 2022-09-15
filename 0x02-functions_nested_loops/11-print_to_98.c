@@ -9,7 +9,7 @@ void print_to_98(int n)
 {
 	int i = n, rem, div;
 
-	putchar(i + '0');
+	printf("%d", i);
 	for (i = n + 1; i <= 98; i++)
 	{
 		putchar(',');
@@ -32,4 +32,9 @@ void print_to_98(int n)
 		}
 	}
 	putchar('\n');
+}
+int main(void)
+{
+	print_to_98(-10);
+	return (0);
 }
