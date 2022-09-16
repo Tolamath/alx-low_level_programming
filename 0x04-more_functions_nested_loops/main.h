@@ -1,5 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
+
+/*
+ * file: alx
+ * Auth: Tolani
+ * Desc: Header file containing prototypes for all functions
+ */
+
 int_putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
