@@ -1,19 +1,18 @@
 /*
- * File: 3-print_numbers.c
- * Auth: Gideon Obae Gekonge
+ * File: 2-mul.c
+ * Auth: Adisa Tolani Adekunle
  */
 
 #include "main.h"
 
 /**
- * print_numbers - Prints the numbers from 0-9.
+ * mul - Multiples two integers.
+ * @a: The first integer to be multiplied.
+ * @b: The second integer to be multiplied.
+ *
+ * Return: The result of the multiplication.
  */
-void print_numbers(void)
+int mul(int a, int b)
 {
-	int num;
-
-	for (num = 0; num <= 9; num++)
-		_putchar((num % 10) + '0');
-
-	_putchar('\n');
+	return (a * b);
 }
