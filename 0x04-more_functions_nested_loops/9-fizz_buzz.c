@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - entry point
  *
@@ -33,4 +32,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
+	return (0);
 }
