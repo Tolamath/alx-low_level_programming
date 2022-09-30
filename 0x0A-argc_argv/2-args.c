@@ -1,3 +1,7 @@
+/*
+ * File: 2-args.c
+ */
+
 #include <stdio.h>
 
 /**
