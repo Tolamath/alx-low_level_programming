@@ -3,7 +3,7 @@
 
 /**
  * File: main.h
- * Auth: Gedeon Obae Gekonge
+ * Auth: Adisa Tolani Adekunle
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x08-recursion directory.
  */
@@ -19,3 +19,4 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 
+#endif
