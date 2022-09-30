@@ -22,18 +22,3 @@ int factorial(int n)
 	}
 }
 
-/**
- * main - prints the factorial of a number
- *
- *
- * Return: 0 Always(success)
- */
-/*int main(void)
-{
-	int m, n;
-
-	n = -1024;
-	m = factorial(n);
-	printf("The factorial of %d  is: %d\n", n, m);
-}
-*/
