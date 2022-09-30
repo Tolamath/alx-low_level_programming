@@ -28,7 +28,7 @@ int factorial(int n)
  *
  * Return: 0 Always(success)
  */
-int main(void)
+/*int main(void)
 {
 	int m, n;
 
@@ -36,3 +36,4 @@ int main(void)
 	m = factorial(n);
 	printf("The factorial of %d  is: %d\n", n, m);
 }
+*/
